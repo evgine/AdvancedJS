@@ -6,7 +6,7 @@
 int strlen(char* ptr) {
         int size = 0;
         for (int i = 0; ptr[i] != '\0'; ++i, ++size) {}
-        return size + 1;
+        return size;
 }
 
 int main() {
